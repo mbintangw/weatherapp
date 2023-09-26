@@ -1,10 +1,13 @@
+body{
+  background-color: red;
+}
 .container{
   width: 607px;
   height: 829px;
   margin: auto;
   margin-top: 75px;
   border-radius: 12px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .top-bar{
   display: flex;
@@ -17,7 +20,7 @@
   display: flex;
   width: 362px;
   height: 78px;
-  background: #9361c2;
+  background-color: rgba(255, 255, 255, 0.74);
   border: none;
   outline: none;
   border-radius: 40px;
@@ -33,7 +36,7 @@
   align-items: center;
   width: 78px;
   height: 78px;
-  background: #ebfffc;
+  background-color: rgba(255, 255, 255, 0.74);
   border-radius: 40px;
   cursor: pointer;
 }
